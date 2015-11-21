@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\home\projects\scalaopencv\src\main\resources\AverageMaleFace.jpg,C:\home\projects\scalaopencv\target\scala-2.11\classes\AverageMaleFace.jpg)[0m
+[0m[[0mdebug[0m] [0m	(C:\home\projects\scalaopencv\src\main\resources\img1.png,C:\home\projects\scalaopencv\target\scala-2.11\classes\img1.png)[0m
+[0m[[0mdebug[0m] [0m	(C:\home\projects\scalaopencv\src\main\resources\img2.png,C:\home\projects\scalaopencv\target\scala-2.11\classes\img2.png)[0m
+[0m[[0mdebug[0m] [0m	(C:\home\projects\scalaopencv\src\main\resources\lbpcascade_frontalcatface.xml,C:\home\projects\scalaopencv\target\scala-2.11\classes\lbpcascade_frontalcatface.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\home\projects\scalaopencv\src\main\resources\lbpcascade_frontalface.xml,C:\home\projects\scalaopencv\target\scala-2.11\classes\lbpcascade_frontalface.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\home\projects\scalaopencv\src\main\resources\lbpcascade_profileface.xml,C:\home\projects\scalaopencv\target\scala-2.11\classes\lbpcascade_profileface.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\home\projects\scalaopencv\src\main\resources\lbpcascade_silverware.xml,C:\home\projects\scalaopencv\target\scala-2.11\classes\lbpcascade_silverware.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\home\projects\scalaopencv\src\main\resources\lena.png,C:\home\projects\scalaopencv\target\scala-2.11\classes\lena.png)[0m

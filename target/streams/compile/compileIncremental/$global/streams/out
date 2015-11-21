@@ -1,0 +1,76 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\home\projects\scalaopencv\src\main\scala\works\OpenCV.scala, C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaDetectFaceDemo.scala, C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java, C:\home\projects\scalaopencv\src\main\scala\works\Main.scala, C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaCorrespondenceMatchingDemo.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\home\projects\scalaopencv\src\main\scala\works\OpenCV.scala, C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaDetectFaceDemo.scala, C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java, C:\home\projects\scalaopencv\src\main\scala\works\Main.scala, C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaCorrespondenceMatchingDemo.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\home\projects\scalaopencv\src\main\scala\works\OpenCV.scala, C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaDetectFaceDemo.scala, C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java, C:\home\projects\scalaopencv\src\main\scala\works\Main.scala, C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaCorrespondenceMatchingDemo.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources and 1 Java source to C:\home\projects\scalaopencv\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3ca4b447, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-optimize[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\home\software\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\home\software\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\home\software\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;C:\home\software\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\home\software\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\home\software\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\home\software\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\home\software\Java\jdk1.8.0_25\jre\classes;C:\Users\philip\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\home\projects\scalaopencv\target\scala-2.11\classes;C:\home\projects\scalaopencv\lib\opencv-300.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 4.406710873 s[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@489ab545 directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.422332562 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.093030216 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.520010581 s[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\home\projects\scalaopencv\src\main\scala\works\OpenCV.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\home\projects\scalaopencv\src\main\scala\works\OpenCV.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\home\projects\scalaopencv\src\main\scala\works\OpenCV.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\home\projects\scalaopencv\src\main\scala\works\OpenCV.scala)[0m
+[0m[[0mdebug[0m] [0mThe C:\home\projects\scalaopencv\src\main\scala\works\OpenCV.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, run, synchronized, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, toString, OpenCV, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of C:\home\projects\scalaopencv\src\main\scala\works\Main.scala: Set(run, <init>, OpenCV)[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaDetectFaceDemo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaDetectFaceDemo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaDetectFaceDemo.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaDetectFaceDemo.scala)[0m
+[0m[[0mdebug[0m] [0mThe C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaDetectFaceDemo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, run, synchronized, $isInstanceOf, ScalaDetectFaceDemo, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\home\projects\scalaopencv\src\main\scala\works\Main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\home\projects\scalaopencv\src\main\scala\works\Main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\home\projects\scalaopencv\src\main\scala\works\Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\home\projects\scalaopencv\src\main\scala\works\Main.scala)[0m
+[0m[[0mdebug[0m] [0mThe C:\home\projects\scalaopencv\src\main\scala\works\Main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, executionStart, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, Main, toString, args, !=, getClass, ne, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, equals, run, notifyAll, <init>, toString, getClass, DetectFaceDemo, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\home\projects\scalaopencv\src\main\java\DetectFaceDemo.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaCorrespondenceMatchingDemo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaCorrespondenceMatchingDemo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaCorrespondenceMatchingDemo.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaCorrespondenceMatchingDemo.scala)[0m
+[0m[[0mdebug[0m] [0mThe C:\home\projects\scalaopencv\src\main\scala\notworking\ScalaCorrespondenceMatchingDemo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ScalaCorrespondenceMatchingDemo, wait, $asInstanceOf, equals, asInstanceOf, run, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

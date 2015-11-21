@@ -1,0 +1,159 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+9 items
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$1.class
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$root$1.class
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$root$2.class
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$root$3.class
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$root$4.class
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$scalaSettings$1.class
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$scalaSettings$2.class
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$.class
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild.class
+binary dependencies:
+9 items
+C:\home\projects\scalaopencv\project\build.scala -> C:\Users\philip\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar
+C:\home\projects\scalaopencv\project\build.scala -> C:\Users\philip\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+C:\home\projects\scalaopencv\project\build.scala -> C:\Users\philip\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar
+C:\home\projects\scalaopencv\project\build.scala -> C:\Users\philip\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+C:\home\projects\scalaopencv\project\build.scala -> C:\Users\philip\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+C:\home\projects\scalaopencv\project\build.scala -> C:\Users\philip\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+C:\home\projects\scalaopencv\project\build.scala -> C:\Users\philip\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar
+C:\home\projects\scalaopencv\project\build.scala -> C:\Users\philip\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+C:\home\projects\scalaopencv\project\build.scala -> C:\home\software\Java\jdk1.8.0_25\jre\lib\rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+9 items
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild$
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild$$anonfun$1
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild$$anonfun$root$1
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild$$anonfun$root$2
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild$$anonfun$root$3
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild$$anonfun$root$4
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild$$anonfun$scalaSettings$1
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild$$anonfun$scalaSettings$2
+used names:
+38 items
+C:\home\projects\scalaopencv\project\build.scala -> ++
+C:\home\projects\scalaopencv\project\build.scala -> ++=
+C:\home\projects\scalaopencv\project\build.scala -> :=
+C:\home\projects\scalaopencv\project\build.scala -> <init>
+C:\home\projects\scalaopencv\project\build.scala -> Append
+C:\home\projects\scalaopencv\project\build.scala -> Build
+C:\home\projects\scalaopencv\project\build.scala -> FullInstance
+C:\home\projects\scalaopencv\project\build.scala -> InitializeInstance
+C:\home\projects\scalaopencv\project\build.scala -> Keys
+C:\home\projects\scalaopencv\project\build.scala -> OpenCVJavaDemoBuild
+C:\home\projects\scalaopencv\project\build.scala -> Project
+C:\home\projects\scalaopencv\project\build.scala -> Seq
+C:\home\projects\scalaopencv\project\build.scala -> appendN
+C:\home\projects\scalaopencv\project\build.scala -> appendSeq
+C:\home\projects\scalaopencv\project\build.scala -> apply
+C:\home\projects\scalaopencv\project\build.scala -> buildSettings
+C:\home\projects\scalaopencv\project\build.scala -> canBuildFrom
+C:\home\projects\scalaopencv\project\build.scala -> collection
+C:\home\projects\scalaopencv\project\build.scala -> defaultSettings
+C:\home\projects\scalaopencv\project\build.scala -> file
+C:\home\projects\scalaopencv\project\build.scala -> name
+C:\home\projects\scalaopencv\project\build.scala -> package
+C:\home\projects\scalaopencv\project\build.scala -> pure
+C:\home\projects\scalaopencv\project\build.scala -> root
+C:\home\projects\scalaopencv\project\build.scala -> sbt
+C:\home\projects\scalaopencv\project\build.scala -> scalaSettings
+C:\home\projects\scalaopencv\project\build.scala -> scalaVersion
+C:\home\projects\scalaopencv\project\build.scala -> scalacOptions
+C:\home\projects\scalaopencv\project\build.scala -> set
+C:\home\projects\scalaopencv\project\build.scala -> settings
+C:\home\projects\scalaopencv\project\build.scala -> x$1
+C:\home\projects\scalaopencv\project\build.scala -> x$2
+C:\home\projects\scalaopencv\project\build.scala -> x$3
+C:\home\projects\scalaopencv\project\build.scala -> x$4
+C:\home\projects\scalaopencv\project\build.scala -> x$5
+C:\home\projects\scalaopencv\project\build.scala -> x$6
+C:\home\projects\scalaopencv\project\build.scala -> x$7
+C:\home\projects\scalaopencv\project\build.scala -> x$8
+product stamps:
+9 items
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$1.class -> lastModified(1448118850838)
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$root$1.class -> lastModified(1448118850849)
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$root$2.class -> lastModified(1448118850859)
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$root$3.class -> lastModified(1448118850866)
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$root$4.class -> lastModified(1448118850872)
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$scalaSettings$1.class -> lastModified(1448118850879)
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$$anonfun$scalaSettings$2.class -> lastModified(1448118850886)
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild$.class -> lastModified(1448118850825)
+C:\home\projects\scalaopencv\project\target\scala-2.10\sbt-0.13\classes\OpenCVJavaDemoBuild.class -> lastModified(1448118850777)
+source stamps:
+1 items
+C:\home\projects\scalaopencv\project\build.scala -> hash(ba6cf92f0d3d2514f75994de2455f8447a5d2fbd)
+binary stamps:
+9 items
+C:\home\software\Java\jdk1.8.0_25\jre\lib\rt.jar -> lastModified(1421404346257)
+C:\Users\philip\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar -> lastModified(1429631043000)
+C:\Users\philip\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar -> lastModified(1430156456000)
+C:\Users\philip\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar -> lastModified(1430156161000)
+C:\Users\philip\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar -> lastModified(1430152703000)
+C:\Users\philip\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar -> lastModified(1430151849000)
+C:\Users\philip\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar -> lastModified(1445426594443)
+C:\Users\philip\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar -> lastModified(1445426742378)
+C:\Users\philip\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> lastModified(1395179187000)
+class names:
+9 items
+C:\home\software\Java\jdk1.8.0_25\jre\lib\rt.jar -> java.lang.Object
+C:\Users\philip\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar -> sbt.appmacro.Instance$
+C:\Users\philip\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar -> sbt.Init
+C:\Users\philip\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar -> sbt.Configuration
+C:\Users\philip\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar -> sbt.std.FullInstance$
+C:\Users\philip\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar -> sbt.Build
+C:\Users\philip\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar -> sbt.package$
+C:\Users\philip\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar -> sbt.Task
+C:\Users\philip\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> scala.collection.TraversableLike
+internal apis:
+1 items
+C:\home\projects\scalaopencv\project\build.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCV1rcEAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJZy58V0AAZub3RpZnlzcQB+AAyqBtyadAAEd2FpdHNxAH4ADFFv5iN0AA0kYXNJbnN0YW5jZU9mc3EAfgAM9XyS1XQADGJ1aWxkTG9hZGVyc3NxAH4ADMH1mjB0AARyb290c3EAfgAMw+qYinQABmVxdWFsc3NxAH4ADJH3NoV0AAxhc0luc3RhbmNlT2ZzcQB+AAyGfCoLdAAScHJvamVjdERlZmluaXRpb25zc3EAfgAMACMsE3QADHN5bmNocm9uaXplZHNxAH4ADA0lga10AA0kaXNJbnN0YW5jZU9mc3EAfgAMcjo5oXQACW5vdGlmeUFsbHNxAH4ADMuZ6it0AAtyb290UHJvamVjdHNxAH4ADAKnqGR0AAxpc0luc3RhbmNlT2ZzcQB+AAymHbocdAACPT1zcQB+AAx2pSXDdAAFY2xvbmVzcQB+AAwTq/TEdAANc2NhbGFTZXR0aW5nc3NxAH4ADO8RCnN0AAh0b1N0cmluZ3NxAH4ADKvBZhF0AAIhPXNxAH4ADApChJl0AAhwcm9qZWN0c3NxAH4ADDCgYvd0ABNPcGVuQ1ZKYXZhRGVtb0J1aWxkc3EAfgAMkFXrq3QACGdldENsYXNzc3EAfgAM9SFFuHQAAm5lc3EAfgAMxZmXO3QADWJ1aWxkU2V0dGluZ3NzcQB+AAyw1DtpdAACZXFzcQB+AAzXuPXNdAAIc2V0dGluZ3NzcQB+AAy1ZrUxdAACIyNzcQB+AAwEQlvNdAAIZmluYWxpemVzcQB+AAyPdkWrdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBPeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ADV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AGYBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE9MAAlpbmhlcml0ZWRxAH4AT0wAB3BhcmVudHNxAH4AT3hxAH4AbXNxAH4AZgF1cQB+AEoAAAAAcHNxAH4AZgF1cQB+AEoAAAAAcHNxAH4AZgF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGx0AAVCdWlsZHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AbHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADc2J0c3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIZzcQB+AHl0AAZPYmplY3RzcQB+AH1zcQB+AIB1cQB+AIMAAAADc3EAfgCFdAAEamF2YXNxAH4AhXQABGxhbmdxAH4AinNxAH4AeXQAA0FueXNxAH4AfXNxAH4AgHVxAH4AgwAAAAJzcQB+AIV0AAVzY2FsYXEAfgCKcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUSqcCft1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHQzpcaG9tZVxwcm9qZWN0c1xzY2FsYW9wZW5jdlxwcm9qZWN0XHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS6bPkvDT0lFPdZlN4kVfhEel0vvQ==
+external apis:
+0 items
+source infos:
+1 items
+C:\home\projects\scalaopencv\project\build.scala -> 
+AAAAAAAAAAEAAAEAAAAPAB4gICAgUHJvamVjdC5kZWZhdWx0U2V0dGluZ3MgKysBAAABEgEAAAAMAQAMICAgICAgICAgICAgAQAwQzpcaG9tZVxwcm9qZWN0c1xzY2FsYW9wZW5jdlxwcm9qZWN0XGJ1aWxkLnNjYWxhAQAwQzpcaG9tZVxwcm9qZWN0c1xzY2FsYW9wZW5jdlxwcm9qZWN0XGJ1aWxkLnNjYWxhAHxtZXRob2QgZGVmYXVsdFNldHRpbmdzIGluIG9iamVjdCBQcm9qZWN0IGlzIGRlcHJlY2F0ZWQ6IFVzZSBEZWZhdWx0cy5jb3JlRGVmYXVsdFNldHRpbmdzIGluc3RlYWQsIGNvbWJpbmVkIHdpdGggQXV0b1BsdWdpbnMuAQ==
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUSotxVV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAR0M6XGhvbWVccHJvamVjdHNcc2NhbGFvcGVuY3ZccHJvamVjdFx0YXJnZXRcc2NhbGEtMi4xMFxzYnQtMC4xM1xjbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUSqcCft1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAR0M6XGhvbWVccHJvamVjdHNcc2NhbGFvcGVuY3ZccHJvamVjdFx0YXJnZXRcc2NhbGEtMi4xMFxzYnQtMC4xM1xjbGFzc2VzdAABLw==
