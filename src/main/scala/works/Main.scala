@@ -19,9 +19,7 @@ object Main extends App {
   // If you load it more than once, you will get a java.lang.UnsatisfiedLinkError.
   System.loadLibrary(Core.NATIVE_LIBRARY_NAME)
 
-  //ScalaCorrespondenceMatchingDemo.run()
-  //ScalaDetectFaceDemo.run()
   //new DetectFaceDemo().run()
-
-  new OpenCV().run()
+  //new FloodFillRegionsDemo().run()
+  new BlobExtractionDemo().run()
 }

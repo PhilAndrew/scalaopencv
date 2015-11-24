@@ -6,7 +6,7 @@ import org.opencv.imgcodecs.Imgcodecs
 import org.opencv.imgproc.Imgproc
 import org.opencv.objdetect.CascadeClassifier
 
-class OpenCV {
+class DetectFaceDemo {
   def run() {
     println("\nRunning DetectFaceDemo");
 
