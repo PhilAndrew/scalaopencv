@@ -15,5 +15,7 @@ This projects lib directory
 
 4. Copy opencv_java300.dll from somewhere to this directory
 
+5. sbt run
+
 
 
