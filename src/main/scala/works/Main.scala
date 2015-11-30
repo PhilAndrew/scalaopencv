@@ -21,5 +21,10 @@ object Main extends App {
 
   //new DetectFaceDemo().run()
   //new FloodFillRegionsDemo().run()
-  new BlobExtractionDemo().run()
+  //new KMeansClusterDemo().run()
+  //new CannyDemo().run()
+  //new FindGradientDemo().run()
+  //new GradientDemo().run()
+  //new LinearGradientDemo().run()
+  new SvgDemo().run()
 }
