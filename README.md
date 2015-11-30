@@ -19,5 +19,5 @@ Actually I already did this.
 
 5. sbt run
 
-
+sbt run will run the file Main in works.Main
 
