@@ -12,7 +12,6 @@ Copy the JAR from
 C:\home\software\opencv\build\java
 TO
 This projects lib directory
-
 Actually I already did this.
 
 4. Copy opencv_java300.dll from somewhere to this directory scalaopencv where you type sbt run
