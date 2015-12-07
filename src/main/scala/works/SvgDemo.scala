@@ -11,13 +11,13 @@ import org.apache.batik.apps.rasterizer.{DestinationType, SVGConverter}
 //: ?
 //: ----------------------------------------------------------------------------
 
-class SvgDemo {
+class SvgDemo(fileNameSVG: String, fileNamePNG: String) {
   def run() = {
     val r = new SVGConverter()
-    val sources = List("./src/main/resources/svg/test.svg").toArray
+    val sources = List("./src/main/resources/svg/"+fileNameSVG+".svg").toArray
     r.setSources(sources)
     //r.setDestinationType(DestinationType.?)
-    r.setDst(new File("out.png"))
+    r.setDst(new File(fileNamePNG+".png"))
     r.execute()
   }
 }

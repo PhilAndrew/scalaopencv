@@ -12,6 +12,17 @@ import org.w3c.dom.svg.SVGDocument
  */
 class SVGImageUtils {
 
+  def createSVGFromImage(img:BufferedImage, fileName: String): Boolean = {
+
+    var leftColor = getLeftMostPixelColor(img)
+    var rightColor = getRightMostPixelColor(img)
+
+    var wasCreated = createSVGLinearGradient(fileName, leftColor, rightColor)
+
+    return wasCreated
+
+  }
+
   /**
    *
    * @param img1 the first image to be compared
@@ -102,7 +113,7 @@ class SVGImageUtils {
    * @param color1 the first color to make the linear gradient
    * @param color2 the second color to make the linear gradient
    */
-  def createSVGLinearGradient(fileName: String, color1: Array[Integer], color2: Array[Integer]){
+  def createSVGLinearGradient(fileName: String, color1: Array[Integer], color2: Array[Integer]): Boolean = {
 
     var impl = SVGDOMImplementation.getDOMImplementation()
     var svgNS = SVGDOMImplementation.SVG_NAMESPACE_URI
@@ -162,11 +173,13 @@ class SVGImageUtils {
       var w = new OutputStreamWriter(os, "iso-8859-1")
       svgGenerator.stream(svgRoot, w)
       println("SVG FILE WAS GENERATED SUCCESSFULLY!")
+      return true
 
     }catch{
       case e:Exception => {
         e.printStackTrace()
         println("FAILED GENERATING SVG FILE")
+        return false
 
       }
     }

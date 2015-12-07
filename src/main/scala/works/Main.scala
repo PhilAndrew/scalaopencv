@@ -33,19 +33,27 @@ object Main extends App {
   //new GradientDemo().run()
   //new LinearGradientDemo().run()
   //new SvgDemo().run()
-  new CreateGradientSVGDemo("blue", "white").run()
 
 
 
-//  var bi1:BufferedImage = null
-//  bi1 = ImageIO.read(new File("out2.png"))
-//
-//  var bi2:BufferedImage = null
-//  bi2 = ImageIO.read(new File("out2.png"))
-//
-//  var iu = new ImageUtils()
-//
-//  println(iu.compareMiddlePixelColor(bi1, bi2))
+  var bi1:BufferedImage = null
+  bi1 = ImageIO.read(new File("gradient3.png"))
+
+  var iu = new SVGImageUtils()
+
+  //Create the svg file using an image
+  println(iu.createSVGFromImage(bi1, "gradient3"))
+
+  //Read the svg file to create a png image
+  new SvgDemo("gradient3", "redgradientout").run()
+
+  //get the png that was created
+  var bi2:BufferedImage = null
+  bi2 = ImageIO.read(new File("redgradientout.png"))
+
+  //comparing the images
+  println(iu.compareMiddlePixelColor(bi1, bi2))
+  println(iu.compareImagePixelByPixel(bi1, bi2))
 
 
 
