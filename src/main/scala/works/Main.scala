@@ -11,9 +11,14 @@ package works
  * your choosing so long as you can get them to build.
  */
 
+import java.awt.image.{DataBufferByte, BufferedImage}
+import java.io.File
+import javax.imageio.ImageIO
+
 import org.opencv.core.Core
 
 object Main extends App {
+
 
   // We must load the native library before using any OpenCV functions.
   // You must load this library _exactly once_ per Java invocation.
@@ -29,4 +34,19 @@ object Main extends App {
   //new LinearGradientDemo().run()
   //new SvgDemo().run()
   new CreateGradientSVGDemo("blue", "white").run()
+
+
+
+//  var bi1:BufferedImage = null
+//  bi1 = ImageIO.read(new File("out2.png"))
+//
+//  var bi2:BufferedImage = null
+//  bi2 = ImageIO.read(new File("out2.png"))
+//
+//  var iu = new ImageUtils()
+//
+//  println(iu.compareMiddlePixelColor(bi1, bi2))
+
+
+
 }
