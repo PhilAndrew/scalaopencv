@@ -12,12 +12,12 @@ import org.w3c.dom.svg.SVGDocument
  */
 class SVGImageUtils {
 
-  def createSVGFromImage(img:BufferedImage, fileName: String): Boolean = {
+  def createSVGFromImage(img:BufferedImage, fileName: String, width: Int, height: Int): Boolean = {
 
     var leftColor = getLeftMostPixelColor(img)
     var rightColor = getRightMostPixelColor(img)
 
-    var wasCreated = createSVGLinearGradient(fileName, leftColor, rightColor)
+    var wasCreated = createSVGLinearGradient(fileName, leftColor, rightColor, width, height)
 
     return wasCreated
 
@@ -31,10 +31,23 @@ class SVGImageUtils {
    */
   def compareMiddlePixelColor(img1:BufferedImage, img2: BufferedImage): Boolean = {
 
+    var out: Boolean = false
     var middlePixelColorImg1 = getMiddlePixelColor(img1)
     var middlePixelColorImg2 = getMiddlePixelColor(img2)
 
-    return middlePixelColorImg1.sameElements(middlePixelColorImg2)
+    var dif1 = middlePixelColorImg1(0) - middlePixelColorImg2(0)
+    var dif2 = middlePixelColorImg1(1) - middlePixelColorImg2(1)
+    var dif3 = middlePixelColorImg1(2) - middlePixelColorImg2(2)
+
+    if(dif1 <= 5 && dif1 >= -5){
+      out = true
+    }else if(dif2 <= 5 && dif2 >= -5){
+      out = true
+    }else if(dif3 <= 5 && dif3 >= -5){
+      out = true
+    }
+
+    return out
 
   }
 
@@ -113,7 +126,7 @@ class SVGImageUtils {
    * @param color1 the first color to make the linear gradient
    * @param color2 the second color to make the linear gradient
    */
-  def createSVGLinearGradient(fileName: String, color1: Array[Integer], color2: Array[Integer]): Boolean = {
+  def createSVGLinearGradient(fileName: String, color1: Array[Integer], color2: Array[Integer], width: Int, height: Int): Boolean = {
 
     var impl = SVGDOMImplementation.getDOMImplementation()
     var svgNS = SVGDOMImplementation.SVG_NAMESPACE_URI
@@ -124,16 +137,16 @@ class SVGImageUtils {
     var svgRoot = svgGenerator.getRoot(doc.getDocumentElement())
 
     // Set the width and height attributes on the root 'svg' element.
-    svgRoot.setAttributeNS(null, "width", "1000")
-    svgRoot.setAttributeNS(null, "height", "500")
+    svgRoot.setAttributeNS(null, "width", width.toString)
+    svgRoot.setAttributeNS(null, "height", height.toString)
     svgRoot.setAttributeNS(null, "stroke", "none")
 
     // Create the rectangle.
     var rectangle = doc.createElementNS(svgNS, "rect")
     //  rectangle.setAttributeNS(null, "x", "10")
     //  rectangle.setAttributeNS(null, "y", "20")
-    rectangle.setAttributeNS(null, "width", "1000")
-    rectangle.setAttributeNS(null, "height", "500")
+    rectangle.setAttributeNS(null, "width", width.toString)
+    rectangle.setAttributeNS(null, "height", height.toString)
     rectangle.setAttributeNS(null, "fill", "url(#grad)")
 
     //Create defs

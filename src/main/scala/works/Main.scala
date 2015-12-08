@@ -36,20 +36,21 @@ object Main extends App {
 
 
 
+  //input image
   var bi1:BufferedImage = null
-  bi1 = ImageIO.read(new File("gradient3.png"))
+  bi1 = ImageIO.read(new File("gradient5.jpg"))
 
   var iu = new SVGImageUtils()
 
   //Create the svg file using an image
-  println(iu.createSVGFromImage(bi1, "gradient3"))
+  iu.createSVGFromImage(bi1, "gradient5", bi1.getWidth, bi1.getHeight)
 
   //Read the svg file to create a png image
-  new SvgDemo("gradient3", "redgradientout").run()
+  new SvgDemo("gradient5", "blackgradientout").run()
 
   //get the png that was created
   var bi2:BufferedImage = null
-  bi2 = ImageIO.read(new File("redgradientout.png"))
+  bi2 = ImageIO.read(new File("blackgradientout.png"))
 
   //comparing the images
   println(iu.compareMiddlePixelColor(bi1, bi2))
