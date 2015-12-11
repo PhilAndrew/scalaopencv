@@ -4,7 +4,7 @@
 		module="scalaopencv_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151121231808"
+		publication="20151130205507"
 	>
 		<description>
 		scalaopencv
@@ -27,12 +27,16 @@
 	</configurations>
 	<publications>
 		<artifact name="scalaopencv_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="scalaopencv_2.11" type="jar" ext="jar" conf="compile"/>
-		<artifact name="scalaopencv_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="scalaopencv_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="scalaopencv_2.11" type="jar" ext="jar" conf="optional" e:classifier="download, resolveClassifiers"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze_2.11" rev="0.11.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze-natives_2.11" rev="0.11.2" conf="compile->default(compile)"/>
+		<dependency org="org.apache.xmlgraphics" name="xmlgraphics-commons" rev="2.0.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.xmlgraphics" name="batik-codec" rev="1.8" conf="compile->default(compile)"/>
+		<dependency org="org.apache.xmlgraphics" name="batik-rasterizer" rev="1.8" conf="compile->default(compile)"/>
+		<dependency org="org.apache.xmlgraphics" name="batik-svggen" rev="1.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
