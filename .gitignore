@@ -2,6 +2,7 @@ logs
 target
 project/project
 project/target
+.idea
 tmp
 .history
 dist
